@@ -1,0 +1,38 @@
+.border-black {
+    border: 1px solid black;
+}
+
+.border-white {
+    border: 1px solid #FFFFFF;
+}
+
+.h-100 {
+    height: 10rem;
+}
+
+.h-90 {
+    height: 9rem;
+}
+
+.bg-pink {
+    background-color: #F07F80;
+}
+
+.bg-l-pink {
+    background-color: #FFC0CB;
+}
+
+.pad-5 {
+    padding: .5rem;
+}
+
+.row>[class*="col-"] {
+    position: relative;
+}
+
+.row>[class*="col-"]>p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
